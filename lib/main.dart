@@ -165,6 +165,7 @@ class HomeScreen extends StatelessWidget {
                   clientID: fitbitClientID,
                   clientSecret: fitbitClientSecret,
                 );
+
                 FitbitActivityAPIURL fitbitActivityURL =
                     FitbitActivityAPIURL.day(
                   userID: userId,
